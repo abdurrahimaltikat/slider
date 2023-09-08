@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(63, 52, 52); 
+}
+h1{
+    text-align: center;
+    color: white;
+
+}
+
+
+.splide{
+    width: 960px;
+    position: absolute;
+    left: 20%;
+    top: 30%;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 12px;
+    justify-content: space-between;
+    flex-direction: row;
+    
+}
+
+.info p {
+    margin: 5px 0;
+}
+
+.splide__slide .info .circle {
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    margin-left: 110px; 
+}
+
+.splide__pagination{
+    margin-bottom: -40px;
+    }
+
+.circle.alive {
+    background-color: greenyellow; 
+}
+
+.circle.dead {
+    background-color: red; 
+}
+
+.circle.unknown {
+    background-color: gray; 
+}
